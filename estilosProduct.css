@@ -1,0 +1,77 @@
+/* Estilo del contenedor principal */
+#detalle {
+    display: flex;                /* Usamos flexbox para organizar los elementos horizontalmente */
+    flex-direction: row;          /* Asegura que los elementos se dispongan en fila (horizontal) */
+    align-items: flex-start;      /* Alinea los elementos al inicio, en la parte superior */
+    justify-content: space-between; /* Espacia los elementos para que haya suficiente separación */
+    max-width: 1000px;            /* Máximo tamaño del contenedor */
+    margin: 20px auto;            /* Centrado automático del contenedor */
+    background-color: #fff;       /* Fondo blanco */
+    padding: 20px;                /* Espaciado dentro del contenedor */
+    border-radius: 10px;          /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+    position: relative;           /* Necesario para posicionar el botón de forma absoluta */
+}
+
+/* Estilo del botón "Volver" dentro del div */
+#volver {
+    position: absolute;           /* Posicionamos el botón de forma absoluta dentro del contenedor */
+    top: 10px;                    /* Espacio desde la parte superior */
+    left: 10px;                   /* Espacio desde la izquierda */
+    padding: 5px 10px;            /* Tamaño más pequeño del botón */
+    background-color: #4CAF50;    /* Fondo verde */
+    color: white;                 /* Color del texto */
+    text-decoration: none;        /* Sin subrayado */
+    border-radius: 5px;           /* Bordes redondeados */
+    font-weight: bold;            /* Negrita para resaltar el texto */
+    font-size: 0.9rem;            /* Tamaño de fuente más pequeño */
+}
+
+/* Efecto hover para el botón "Volver" */
+#volver:hover {
+    background-color: #45a049;    /* Cambia a un verde más oscuro cuando el mouse pasa por encima */
+}
+
+/* Estilo de la imagen */
+#detalle img {
+    width: 40%;                   /* Ajusta el tamaño de la imagen a un 40% del contenedor */
+    height: auto;                 /* Mantiene las proporciones de la imagen */
+    border-radius: 10px;          /* Bordes redondeados para la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
+
+/* Contenedor del texto (título, descripción y precio) */
+#detalle .text-content {
+    width: 55%;                   /* Asegura que el texto ocupe el 55% del contenedor */
+    padding-left: 20px;           /* Espaciado entre la imagen y el texto */
+    display: flex;
+    flex-direction: column;       /* Organiza los elementos dentro del texto en columna */
+    justify-content: flex-start;  /* Alinea el contenido hacia la parte superior */
+}
+
+/* Título del producto */
+#detalle h1 {
+    font-size: 2.2rem;             /* Tamaño de fuente para el título */
+    color: #333;                   /* Color gris oscuro para el título */
+    text-align: center;            /* Centrado del título */
+    margin-bottom: 15px;           /* Espacio debajo del título */
+    font-weight: bold;             /* Negrita para resaltar el título */
+}
+
+/* Descripción del producto */
+#detalle p {
+    font-size: 1.1rem;             /* Tamaño de fuente más grande para la descripción */
+    color: #555;                   /* Color gris claro para la descripción */
+    line-height: 1.6;              /* Mayor espaciado entre las líneas */
+    margin-top: 15px;              /* Espacio superior entre la descripción y el precio */
+    text-align: justify;           /* Justifica el texto de la descripción */
+}
+
+/* Estilo del precio */
+#detalle .price {
+    font-size: 1.5rem;             /* Tamaño de fuente más grande para el precio */
+    font-weight: bold;             /* Negrita para resaltar el precio */
+    color: #e50914;                /* Color rojo estilo Netflix */
+    margin-top: 20px;              /* Espacio superior para separar el precio */
+    text-align: center;            /* Centrado del precio */
+}

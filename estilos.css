@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+}
+footer {
+    background: #007B33;
+    color: white;
+    padding: 10px 0;
+}
+.product-title {
+    color: #007B33;
+}
+.product-description {
+    color: #555;
+}
+.social-icons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 2rem; 
+    transition: transform 0.2s; 
+}
+.social-icons a:hover {
+    transform: scale(1.2); 
+}
+.carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+#carouselExample {
+    background-color: #fff; 
+    padding: 0; 
+}
+.carousel-inner {
+    height: 100%; 
+}
+
+#carouselExampleIndicators {
+    height: 400px; 
+    overflow: hidden; 
+}
+
+.info-section {
+    background-color: #e9ecef;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 2.5rem; 
+    transition: transform 0.2s; 
+}
+.social-icons a:hover {
+    transform: scale(1.2); 
+}
